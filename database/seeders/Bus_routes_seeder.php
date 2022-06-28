@@ -23,11 +23,11 @@ class Bus_routes_seeder extends Seeder
                 'line' => '1',
             ],
             [
-                'id' => 2,
+               'id' => 2,
                 'line' => '2',
             ],
             [
-                'id' => 5,
+               'id' => 5,
                 'line' => '5',
             ],
             [
@@ -35,19 +35,19 @@ class Bus_routes_seeder extends Seeder
                 'line' => '8',
             ],
             [
-                'id' => 9,
+               'id' => 9,
                 'line' => '9',
             ],
             [
-                'id' => 10,
+               'id' => 10,
                 'line' => '10',
             ],
             [
-                'id' => 11,
+               'id' => 11,
                 'line' => '11',
             ],
             [
-                'id' => 16,
+               'id' => 16,
                 'line' => '16',
             ],
             [

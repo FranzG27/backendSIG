@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('bus_routes', function (Blueprint $table) { 
             $table->unsignedBigInteger('id');
+            $table->primary('id');
+            //$table->id();
             $table->string('line');
             $table->timestamps();
             $table->softDeletes();

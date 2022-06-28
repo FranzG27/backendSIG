@@ -17,9 +17,13 @@ class DatabaseSeeder extends Seeder
         $this->call(
             [
                 UserSeeder::class,
+               // Bus_routes_seeder::class,
+                //Entry_points_seeder::class,
+                
             ]
         );
         $this->call(Bus_routes_seeder::class);
         $this->call(Entry_points_seeder::class);
+       $this->call(Exit_points_seeder::class);
     }
 }
