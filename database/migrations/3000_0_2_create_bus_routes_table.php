@@ -18,8 +18,8 @@ return new class extends Migration
             $table->primary('id');
             //$table->id();
             $table->string('line');
-            $table->timestamps();
-            $table->softDeletes();
+            //$table->timestamps();
+            //$table->softDeletes();
         });
 
     }

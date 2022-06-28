@@ -15,12 +15,12 @@ return new class extends Migration
     {
         Schema::create('exit_points', function (Blueprint $table) { 
             $table->id();
-            $table->float('lat');
-            $table->float('long');
+            $table->double('lat');
+            $table->double('long');
             $table->unsignedBigInteger('bus_route_id');
             $table->foreign('bus_route_id')->references('id')->on('bus_routes')->onDelete('cascade')->onUpdate('cascade');
-            $table->timestamps();
-            $table->softDeletes();
+            //$table->timestamps();
+            //$table->softDeletes();
         });
 
     }
